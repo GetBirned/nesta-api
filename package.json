@@ -1,0 +1,14 @@
+{
+  "name": "nesta-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Netlify Functions for NESTA Acuity-powered website sections",
+  "scripts": {
+    "dev": "netlify dev",
+    "test:featured": "node -e \"fetch('http://localhost:8888/.netlify/functions/featured').then(r=>r.json()).then(console.log)\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {}
+}
